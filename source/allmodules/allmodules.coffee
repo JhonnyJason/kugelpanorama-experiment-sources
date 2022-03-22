@@ -1,9 +1,11 @@
-import configmodule from "./configmodule"
-import debugmodule from "./debugmodule"
+import * as backgroundmodule from "./backgroundmodule"
+import * as configmodule from "./configmodule"
+import * as debugmodule from "./debugmodule"
 
 Modules = {
+    backgroundmodule,
     configmodule,
-    debugmodule
+    debugmodule,
 }
 
 export default Modules

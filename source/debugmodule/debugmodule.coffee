@@ -1,8 +1,7 @@
-debugmodule = {name: "debugmodule", uimodule: false}
+export name =  "debugmodule"
 
 ############################################################
-debugmodule.modulesToDebug = 
+export  modulesToDebug = 
     unbreaker: true
+    backgroundmodule: true
     configmodule: true
-
-export default debugmodule
